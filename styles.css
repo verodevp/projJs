@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+body{
+    margin: 0;
+    background-image: url(../immagini/casino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    
+    
+}
+
+main{
+    border: 10px double #fe6534;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: 100px auto 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+
+h1{
+    text-align: center;
+    color: #b35ecc;
+    background-color: #ffffffc1;
+   
+}
+
+
+
+.numRandom span{
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    
+}
+
+.numRandom section{
+
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    gap: 20px ;
+}
+
+#play, #again, #send{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: #ffd997;
+    border-radius: 5px;
+   
+
+}
+
+#send{
+    width: 30%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+
+#play:hover, #again:hover, #send:hover{
+    background-color: #b35ecc;
+    color: #fff;
+}
+
+
+.myChoice, .numRandom{
+
+    background-color: #ffffffae;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.insert{
+    
+    font-size: 1.2em;
+    text-align: center;
+    
+    
+}
+
+.myChoice span{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    line-height: 2;
+
+}
+
+#myNumber{
+    
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: normal;
+}
+
+
+.options{
+    
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.add, .minus, .reset{
+    padding: 5px;
+    font-weight: bold;
+    border: 2px solid #ffd997;
+    border-radius: 5px;
+    width: 20%;
+    font-size: 1.1em;
+
+}
+
+.reset{
+    width: 40%;
+}
+
+.add:hover, .minus:hover, .reset:hover{
+    background-color: #b35ecc;
+    border: 2px solid #b35ecc;
+    color: #fff;
+
+}
+
+.result{
+
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    width: 50%;
+    margin: 20px auto;
+    background-color: #ffffffae;
+    font-weight: bold;
+    visibility: hidden;
+
+}
+
+.result .win{
+    color: #b35ecc;
+
+}
+
+.result .lost{
+    color: rgb(65, 165, 65);
+
+}
+
+
+
+
+.score span{
+    
+    border: double 8px #b35ecc;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    color: white;
+    line-height: 40px;
+    font-size: 1.7em;
+}
