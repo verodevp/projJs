@@ -17,7 +17,7 @@ If the number is matched, the player gets a point, otherwise, the score will be 
 
 - [HTML]
 - [CSS]
-- [JavaScript] : DOM MANIPULATION (getElementById(), querySelector(), createTextNode(), createElement(), appendChild())
+- [JavaScript Basics] : DOM MANIPULATION (getElementById(), querySelector(), createTextNode(), createElement(), appendChild())
 
 ## MIT LICENSE
 
