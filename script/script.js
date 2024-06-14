@@ -74,7 +74,7 @@ function newMatch(){
 addBtn.addEventListener("click", add);
 
 function add(){
-    console.log("hai fatto click sul +")
+    //console.log("hai fatto click sul +")
     count++;
     myNumber.innerHTML=count;
     
@@ -113,6 +113,7 @@ function sendYourNumber(){
         result.style.visibility="visible";
         result.innerHTML= "<p> Congratulations, you guessed the number</p>";
         document.querySelector(".result p").classList.add("win");
+        numCpu.style.visibility="visible";
 
 
 
