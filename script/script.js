@@ -74,7 +74,7 @@ function newMatch(){
 addBtn.addEventListener("click", add);
 
 function add(){
-    //console.log("hai fatto click sul +")
+    
     count++;
     myNumber.innerHTML=count;
     
