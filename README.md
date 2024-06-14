@@ -1,6 +1,10 @@
 # projJs Test your patience: Guess the number from 1 to 10
 Hi! This is my first JavaScript project. It's a simple application where there are two players: the user and  the machine. 
 
+## Scope
+
+Development of an application that it works like a counter.
+
 ## How it works
 
 The user must guess the number launched by the machine computer.
